@@ -1400,7 +1400,7 @@ header css
 }
 
 .header_v1 .navbar-brand img {
-	width: 150px;
+	width: auto;
 }
 
 .header_v1 .bsnav-sticky.bsnav-sticky-slide.sticked.in {
@@ -9883,7 +9883,7 @@ media queries responsive css
 		display: none;
 	}
 	.header_v1 {
-		padding: 20px 10px;
+		padding: 3px 3px;
 	}
 	.page_title .content_box h1 {
 		font-size: 40px;
