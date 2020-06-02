@@ -3573,7 +3573,7 @@ ripple video btn css
 .funfacts.type_two {
 	position: relative;
 	padding: 100px 0px 70px;
-	background-image: url(../image/resources/explore-bg.jpg);
+	/* background-image: url(../image/resources/explore-bg.jpg); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
