@@ -212,12 +212,12 @@ function sidemenublockoverlay() {
     }
 }
 /*-----------------update clock-----------------*/
-function update() {
+// function update() {
 
-    $('#clock').html(moment().format('D. MMMM YYYY H:mm:ss'));
-}
+//     $('#clock').html(moment().format('D. MMMM YYYY H:mm:ss'));
+// }
 
-setInterval(update, 1000);
+// setInterval(update, 1000);
 /*-----------------isotope-----------------*/
 // use document.ready instead of window.load
 // window.load waits for all resources to be loaded first,
