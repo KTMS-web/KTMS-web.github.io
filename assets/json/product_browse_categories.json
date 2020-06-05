@@ -1,0 +1,31 @@
+{
+    "data": {
+        "type": "carousel",
+        "templates": [
+            {
+                "title": "GLOVES",
+                "image_url": "https://ktmedicalsupply.com/assets/image/products/Medicom-Latex%20Medical%20Examination%20Gloves%20SafeBasics%20EASY%20FIT%20-%20Powder%20free.jpeg",
+                "subtitle": "Powder Free or w/ Powder Latex, Nitrile, Examination Gloves",
+                "buttons": [
+                    {
+                        "title": "Browse",
+                        "type": "postback",
+                        "payload": "flow_F37F9C98BC3842D7A6BF506262DC2873"
+                    }
+                ]
+            },
+            {
+                "title": "Electronics",
+                "image_url": "https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-Electronics.jpg",
+                "subtitle": "Home Appliances, Mobile phones & more",
+                "buttons": [
+                    {
+                        "title": "Browse",
+                        "type": "postback",
+                        "payload": "flow_60965C5F4D5447348672CADB5125EBAB"
+                    }
+                ]
+            }
+        ]
+    }
+}

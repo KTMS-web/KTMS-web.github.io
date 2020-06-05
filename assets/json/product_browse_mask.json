@@ -1,0 +1,31 @@
+{
+    "data": {
+        "type": "carousel",
+        "templates": [
+            {
+                "title": "Clothes",
+                "image_url": "https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-clothes.jpg",
+                "subtitle": "Clothes for Men and Women",
+                "buttons": [
+                    {
+                        "title": "Browse",
+                        "type": "postback",
+                        "payload": "flow_D615E2842CA34ED089AAD49B0A4DBF2A"
+                    }
+                ]
+            },
+            {
+                "title": "Footwear",
+                "image_url": "https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-footwear.jpg",
+                "subtitle": " Footwear for Men and Women",
+                "buttons": [
+                    {
+                        "title": "Browse",
+                        "type": "postback",
+                        "payload": "flow_3432FD2210CC4BB2BC08B53CF6BE46E8"
+                    }
+                ]
+            }
+        ]
+    }
+}
