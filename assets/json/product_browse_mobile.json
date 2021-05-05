@@ -1,0 +1,31 @@
+{
+    "data": {
+        "type": "carousel",
+        "templates": [
+            {
+                "title": "iPhone X",
+                "image_url": "https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-iPhone.jpg",
+                "subtitle": "Price $1000",
+                "buttons": [
+                    {
+                        "title": "Select",
+                        "type": "postback",
+                        "payload": "flow_7CC5182B189E42BDBFD7D5DBD4DA57E2"
+                    }
+                ]
+            },
+            {
+                "title": "Laptop",
+                "image_url": "https://s3-ap-south-1.amazonaws.com:443/bot-bkt/prod/10906/Image-for-Laptop.jpg",
+                "subtitle": "Price $800",
+                "buttons": [
+                    {
+                        "title": "Select",
+                        "type": "postback",
+                        "payload": "flow_7CC5182B189E42BDBFD7D5DBD4DA57E2"
+                    }
+                ]
+            }
+        ]
+    }
+}
