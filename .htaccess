@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule (.*) https://ktms.com.hk [R=301,L]
+RewriteCond %{HTTP_HOST} !^ktms.com.hk$ [NC]
+RewriteRule ^(.*)$ http://ktms.com.hk/$1 [L,R=301]
