@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
-RewriteRule ^(.*)$ https://ktms.com.hk/$1 [R=301,L]
+RewriteRule (.*)$ https://ktms.com.hk/$1 [R=301,L]
 </IfModule>
 
 <ifModule mod_gzip.c>
