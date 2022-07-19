@@ -1,6 +1,5 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
-RewriteRule (.*)$ https://ktms.com.hk/$1 [R=301,L]
 Redirect 301 / https://ktms.com.hk/
 </IfModule>
 
