@@ -1,5 +1,7 @@
-//Rewrite to www
-Options +FollowSymLinks
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^ktms.com.hk[nc]
-RewriteRule ^(.*)$ http://www.ktms.com.hk/$1 [r=301,nc]
+edirect 301 / https://ktms.com.hk/
+RewriteBase /
+RewriteRule (.*) https://ktms.com.hk/$1 [R=301,L]
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^(.*) https://www.ktms.com.hk%{REQUEST_URI} [R=302,NC]
