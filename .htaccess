@@ -4,4 +4,4 @@ RewriteEngine On
 Redirect 301 / https://ktms.com.hk/
 Redirect 301 /index.html https://www.ktms.com.hk/
 Redirect 301 /index-zh.html https://www.ktms.com.hk/
-RewriteRule ^(.*) https://www.ktms.com.hk%{REQUEST_URI} [R=302,NC]
+RewriteRule ^(.*) https://www.ktms.com.hk%{REQUEST_URI} [R=301,NC]
