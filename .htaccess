@@ -1,5 +1,7 @@
 RewriteEngine on
 edirect 301 / https://ktms.com.hk/
+Redirect 301 /index.html https://www.ktms.com.hk/
+Redirect 301 /index-zh.html https://www.ktms.com.hk/
 RewriteBase /
 RewriteRule (.*) https://ktms.com.hk/$1 [R=301,L]
 Options +FollowSymLinks
