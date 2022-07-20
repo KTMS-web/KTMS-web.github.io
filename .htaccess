@@ -1,6 +1,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
-Redirect 301 / https://ktms.com.hk/
+Redirect 301 /index-cn.html https://www.ktms.com.hk/
+Redirect 301 /index-fr.html https://www.ktms.com.hk/
+Redirect 301 /index-it.html https://www.ktms.com.hk/
+Redirect 301 /index-jp.html https://www.ktms.com.hk/
+Redirect 301 /index-sp.html https://www.ktms.com.hk/
+Redirect 301 /index-zh.html https://www.ktms.com.hk/
 </IfModule>
 
 <ifModule mod_gzip.c>
