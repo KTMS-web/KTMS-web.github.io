@@ -1,4 +1,5 @@
 RewriteEngine on
+Redirect 301 / https://www.ktms.com.hk/
 Redirect 301 /index-cn.html https://www.ktms.com.hk/
 Redirect 301 /index-fr.html https://www.ktms.com.hk/
 Redirect 301 /index-it.html https://www.ktms.com.hk/
